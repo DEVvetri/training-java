@@ -1,0 +1,44 @@
+header{
+    height: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-body{
+    background-color: rgb(72, 224, 224);
+    margin: 10px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://th.bing.com/th/id/OIP.Dyo5ikDdi4gAOitlUS3AkgAAAA?rs=1&pid=ImgDetMain");
+
+}
+
+
+.header-button-section{
+    flex-direction: row;
+    gap: 100px;  display: flex;
+}
+
+
+.header-buttons-temp{
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(60, 117, 250); */
+    border-color: rgb(251, 251, 255);
+
+}
+
+footer{
+    height: 200px;
+    background-color: aqua;
+    border-radius: 15px;
+
+}
