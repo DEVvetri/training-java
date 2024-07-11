@@ -1,0 +1,205 @@
+.header-section{
+    height: 100px;
+    align-content: center;
+    background-color: rgb(40, 42, 42);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.header-text-section{
+    display: flex;
+    gap: 150px;
+
+}
+.header-section-text{
+    color: white;
+    cursor: pointer;
+    box-shadow: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header-profile-section{
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.image-holder{
+    display: flex;
+    height: 500px;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://th.bing.com/th/id/R.4e8d81070377c62b6f70f19f5dbd29dc?rik=NSSVLX43YmM7dA&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f07%2f4e8d81070377c62b6f70f19f5dbd29dc.jpg&ehk=zPd2CAORkHzF7J%2bglwU5cPkVXjoWrX4tVVKWPaE0z0c%3d&risl=1&pid=ImgRaw&r=0");
+}
+
+.body-section{
+    
+    background-color: rgb(57, 189, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.body-row-cards{
+    height: 500px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+
+}
+
+.product-card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 50px;
+}
+.product-card{
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.product-card-content{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    /* background-color: rgba(206, 133, 108, 0.952); */
+    border-style: solid;
+    border-width: 2px;
+    
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 10px;
+    border-color: rgb(0, 0, 0);
+}
+
+.card-text{
+    font-size: 20px;
+    margin: 20px;
+}
+.problem-space{
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    height: 300px;
+    background-color: rgb(57, 189, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+p{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+.footer-section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: rgb(204, 239, 154);
+    width: 15%;
+    border-radius: 20px;
+}
+
+.footer-section-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: rgb(204, 239, 154);
+    width: 15%;border-radius: 20px;
+}
+
+.footer-section-three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: rgb(204, 239, 154);
+    width: 15%;border-radius: 20px;
+}
+
+.footer-section-four{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: rgb(204, 239, 154);
+    width: 15%;border-radius: 20px;
+}
+
+
+.footer-section-five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(204, 239, 154);
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+input{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(57, 255, 215);
+    font-size: 20px;
+}
+
+button{
+    height: 55px;
+    width: 150px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: blue;
+    color: azure;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
